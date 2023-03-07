@@ -1,0 +1,107 @@
+#imagem-header{
+    width: 250px;
+    border-radius: 30px;
+}
+
+
+header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+body{
+ 
+     background-color: purple
+}
+main{
+    text-align: center;
+    
+}
+
+h1{
+    
+    color: black;
+}
+h3{
+   
+    text-align: left;
+    text-decoration: underline;
+    color: rgb(30, 240, 30);
+    margin-left: 10px;
+}
+main h3{
+    margin-left: 30px;
+}
+
+
+
+p{
+    color: white;
+    text-align: left;
+    
+}
+img{
+   width: 500px;
+}
+
+
+
+#links{
+    text-align: left;
+    display: flex;
+    
+     
+    }
+
+#LinksH{
+
+   list-style-type: none;
+   display: flex;
+   width: 300px;
+   justify-content: space-around;
+   align-items: left;
+}
+
+
+
+
+#pesquisar{
+    justify-content: flex-end;
+     display:flex
+     
+     
+}
+input{
+    margin-right: 5px;
+    width: 50%;
+    outline: none;
+    
+}
+
+a{
+    
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(212, 11, 212);
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: purple;
+
+}
+Footer p{
+    text-align: center;
+    color: black;
+}
+footer{
+   background-color: #ffbdac;
+   padding: 10px;
+   border-radius: 10px;
+
+}
+

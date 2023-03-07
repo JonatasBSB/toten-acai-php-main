@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina de pedidos</title>
+  <style>
+
+#imagem-header{
+    width: 250px;
+    border-radius: 30px;
+}  
+
+ul{
+
+list-style-type: none;
+display: flex;
+width: 300px;
+justify-content: space-around;
+align-items: left;
+}
+
+header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#pesquisar{
+    justify-content: flex-end;
+     display:flex
+
+}     
+
+input{
+    margin-right: 5px;
+    width: 50%;
+    outline: none;
+    
+}     
+
+header a{
+    
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(212, 11, 212);
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    background-color: purple;
+
+}
+     
+body{
+  background-color: purple;
+}
+
+main{
+  margin: 50px auto;
+  width: 70%;
+
+}
+
+h1{
+  margin-right: 60px;
+  text-align: center;
+}
+main h3{
+  text-align: center;
+  color: rgb(30, 240, 30);
+}
+footer h3{
+  text-align: center;
+}
+section.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+
+}
+section.imagens img{
+    width: 180px;
+    height: 270px;
+    object-fit: cover;
+}
+
+section.adcional{
+  margin-left: 100px;
+    display: flex;
+    color: rgb(30, 240, 30);
+    margin-top: 60px;
+  }
+
+  section.cobertura{
+    margin-left: 180px;
+    display: flex;
+    color: rgb(30, 240, 30);
+    margin-top: 50px;
+
+  }
+ main button{
+
+margin-top: 80px;
+margin-left: 400px;
+padding: 1%;
+
+
+  }
+
+
+
+footer{
+   background-color: #ffbdac;
+   padding: 10px;
+   border-radius: 10px;
+
+}
+Footer p{
+    text-align: center;
+    color: black;
+}
+
+ </style>
+</head>
+<body>
+   <header>
+<img src="../img/25.com"alt="logo do açai" id="imagem-header">
+
+    <ul id="LinksH">
+    <Li><a href="../index.html">Inicio</a></Li>
+    <Li><a href="pedidos.html">Cardápio</a></Li>
+    <Li><a href="desenvolvedor.html">Desenvolvedor</a></Li>
+    </ul>
+    
+    <div>
+    <input type="text" name="" id="">
+    <button>Pesquisar</button>
+    </div>
+   </header>
+  <main>
+    <h1>Faça seu pedido</h1>
+
+
+    
+    <section class="imagens">
+   <div>
+    <h3>Açaí 300ml</h3>
+    <h3>R$: 5.00 BRL</h3>
+      <img src="../img/acai10.jpeg">
+      <input type="radio" name=" imagens" id="">
+
+    </div>
+
+   <div>
+    <h3>Açaí de 500ml</h3>
+    <h3>R$: 10.00 BRL</h3>
+     <img src="../img/acai02.jpg">
+      <input type="radio" name=" imagens" id="t1">
+    </div>
+
+    <div>
+        <h3>Açaí de 700ml</h3>
+        <h3>R$: 17.00 BRL</h3>
+      <img src="../img/acai06.jpg">
+      <input type="radio" name=" imagens" id="">
+    </div>
+
+    <div>
+      <h3>Açaí de 1LT</h3>
+      <h3>R$: 35.00 BRL</h3>
+    <img src="../img/acai00.jpg">
+    <input type="radio" name=" imagens" id="">
+  </div>
+
+    </section>
+<h1>Ingredientes</h1>
+    <section class="adcional">
+    
+        <div>
+            <label for="g">Granola</label>
+            <input type="checkbox" name="" id="g">
+
+        </div>
+        <div>
+          <label for="p">paçoca</label>
+          <input type="checkbox" name="" id="p">
+
+      </div>
+      <div>
+        <label for="a">amendoin</label>
+        <input type="checkbox" name="" id="a">
+
+    </div>
+    <div>
+      <label for="u">Uva passa</label>
+      <input type="checkbox" name="" id="u">
+
+  </div>
+  <div>
+    <label for="l">Leite em pó</label>
+    <input type="checkbox" name="" id="l">
+
+</div>
+<div>
+  <label for="c">confetti</label>
+  <input type="checkbox" name="" id="c">
+
+</div>
+<div>
+  <label for="m">MM</label>
+  <input type="checkbox" name="" id="m">
+
+</div>
+<div>
+  <label for="c">coco ralado</label>
+  <input type="checkbox" name="" id="c">
+
+</div>
+</section>
+<h1>Coberturas</h1>
+<section class="cobertura">
+  <div>
+    <label for="l">Leite condensado</label>
+    <input type="checkbox" name="" id="l">
+  
+  </div>
+  <div>
+    <label for="t">Cobertura de chocolate</label>
+    <input type="checkbox" name="" id="t">
+  
+  </div>
+  <div>
+    <label for="n">Cobertura de morango</label>
+    <input type="checkbox" name="" id="n">
+  
+  </div>
+
+</section>
+<button>Enviar pedido</button>
+  </main>
+  <footer>
+   
+    <p>&copy; Jônatas Alves</p>
+    <p>Atualizado em 07/03/2023</p>
+    
+
+    </footer>
+ 
+</body>
+</html>
